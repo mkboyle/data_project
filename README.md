@@ -1,18 +1,28 @@
-# data_project
-# Project title
-## Data Representation and Querying Project 2015
-### Student Name
+# Data Representation and Querying Project 2015
+# Roscommon Sports Facilities
+## Megan Boyle (G00312390)
+
 
 ## Introduction
 This project provides the design and documentation for the dataset "Dataset title" which is available at [data.gov.ie](http://data.gov.ie)...
 
 ## About the data
-This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*insert page name*](insert url).
-The CSV file contains 1001 rows, the first being a header row with the names of each field.
-There are six values on each line, which are as follows:
-    - **year**: the year that the car was purchased.
-    - **price**: the price of the car.
-    ...
+This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*insert page name*](https://data.gov.ie/dataset/roscommon-sports-facilitiesbbc82/resource/fbe3f45a-5411-4279-b0ed-971679f5813b).
+The CSV file contains 96 rows, the first being a header row with the names of each field.
+There are twelve values on each line, which are as follows:
+- **x**: the x co-ordinate.
+- **y**: the y co-ordinate.
+- **OBJECT_ID**: Unique id number.
+- **Name**: Club Name.
+- **Type**: sport type.
+- **Address**: Address.
+- **Telephone**: Telephone number.
+- **Web**: Website Address.
+- **Streetview_Link**: Google map Streetview.
+- **WGS84 Longitude**: Telephone number.
+- **WGS4 Latitude**: Telephone number.
+- **Eircode**: Postal ID.
+    
     
     ## List of cars for a given year
 You can get a list of cars purchased in a given year using the GET method at the following URL:
