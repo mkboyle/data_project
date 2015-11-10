@@ -7,7 +7,7 @@
 This project provides the design and documentation for the dataset "Dataset title" which is available at [data.gov.ie](http://data.gov.ie)...
 
 ## About the data
-This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*insert page name*](https://data.gov.ie/dataset/roscommon-sports-facilitiesbbc82/resource/fbe3f45a-5411-4279-b0ed-971679f5813b).
+This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [data.gov.ie](https://data.gov.ie/dataset/roscommon-sports-facilitiesbbc82/resource/fbe3f45a-5411-4279-b0ed-971679f5813b).
 The CSV file contains 96 rows, the first being a header row with the names of each field.
 There are twelve values on each line, which are as follows:
 - **x**: the x co-ordinate.
