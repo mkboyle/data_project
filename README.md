@@ -10,18 +10,18 @@ The CSV file contains 96 rows. Each row has 12 fields/columns.
 The column and column description are as follows:
 Column | Description
 ------------ | -------------
-- **x** | the x co-ordinate.
-- **y** | the y co-ordinate.
-- **OBJECT_ID** | Unique id number.
-- **Name** | Club Name.
-- **Type** | sport type.
-- **Address** | Address.
-- **Telephone** | Telephone number.
-- **Web** | Website Address.
-- **Streetview_Link** | Google map Streetview.
-- **WGS84 Longitude** | Telephone number.
-- **WGS4 Latitude** | Telephone number.
-- **Eircode** | Postal ID.
+**x** | the x co-ordinate.
+**y** | the y co-ordinate.
+**OBJECT_ID** | Unique id number.
+**Name** | Club Name.
+**Type** | sport type.
+**Address** | Address.
+**Telephone** | Telephone number.
+**Web** | Website Address.
+**Streetview_Link** | Google map Streetview.
+**WGS84 Longitude** | Telephone number.
+**WGS4 Latitude** | Telephone number.
+**Eircode** | Postal ID.
     
     
     ## List of cars for a given year
