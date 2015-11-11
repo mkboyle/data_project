@@ -49,6 +49,22 @@ Below is an example of information taken from the dataset in JSON format, using 
 
 http://www.sportsfacilities.com/Roscommon/type/gaa
 An example of a response would be:
-    ```json
-    [ {"price": 20000, "model": "Skoda", ...}, {...}, ...]
-    ```
+
+```json
+[
+    {
+      "x" : "-8.020513103923442.",
+      "y" : "53.368749653859169",
+      "OBJECT_ID" : "4",
+      "Name" : "Clan na Gael",
+      "Type" : "GAA",
+      "Address" : "Johnstown, Cornafulla, Athlone, Co Roscommon",
+      "Telephone" : "NA",
+      "Web" : " ",
+      "Streetview_Link" : "http://apps.roscommoncoco.ie/GoogleStreetView/GoogleMapStreetView.html?Lat=53.3687496550367&amp;Lng=-8.02051310386946",
+      "WGS84 Longitude" : "-8.0205131",
+      "WGS4 Latitude" : "53.3687496",
+      "Eircode" : " "
+    }
+]
+```
