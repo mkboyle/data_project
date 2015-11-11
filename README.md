@@ -52,7 +52,7 @@ If the user wanted to restrict the data they wanted to a specific field the woul
 http://www.sportsfacilities.com/Roscommon/[field]
 
 [field] should be replaced with the field they want to see e.g name, type, address etc.
-The user could refine there search even more by adding another parameter. For example the user wants the get just gaa facilities in Roscommon, Theey would use:
+The user could refine there search even more by adding another parameter. For example the user wants the get just gaa facilities in Roscommon, They would use:
 
 http://www.sportsfacilities.com/Roscommon/type/gaa
 
