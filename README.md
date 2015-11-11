@@ -45,7 +45,7 @@ Below is an example of information taken from the dataset in JSON format, using 
 ]
 ```
 
-##Filter for a specific sport type##
+##Sample Searches##
 
 If the user wanted to restrict the data they wanted to a specific field the would use something like the following:
 
