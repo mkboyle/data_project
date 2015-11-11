@@ -68,3 +68,26 @@ An example of a response would be:
     }
 ]
 ```
+
+To search for Ballinameen Gaa club :
+
+http://www.sportsfacilities.com/Roscommon/Name=Ballinameen+GAA/
+
+```json
+[
+    {
+      "x" : "-8.301219921755429",
+      "y" : "53.907989099298348",
+      "OBJECT_ID" : "2",
+      "Name" : "Ballinameen GAA",
+      "Type" : "GAA",
+      "Address" : "St Attractas GAA Club, Ballinameen, Co Roscommon",
+      "Telephone" : "NA",
+      "Web" : " ",
+      "Streetview_Link" : "http://apps.roscommoncoco.ie/GoogleStreetView/GoogleMapStreetView.html?Lat=53.9079891002022&amp;Lng=-8.30121992154989",
+      "WGS84 Longitude" : "-8.301219",
+      "WGS4 Latitude" : "53.9079891",
+      "Eircode" : " "
+    }
+]
+```
