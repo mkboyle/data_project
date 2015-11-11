@@ -13,16 +13,16 @@ Column | Description
 ------ | -----------
 **x** | the x co-ordinate.
 **y** | the y co-ordinate.
-**OBJECT_ID** | Unique id number.
-**Name** | Club Name.
-**Type** | sport type.
-**Address** | Address.
+**OBJECT_ID** | Unique ID number for each facility.
+**Name** | Sport Club Name.
+**Type** | Facilities sport type.
+**Address** | Address of facility.
 **Telephone** | Telephone number.
 **Web** | Website Address.
-**Streetview_Link** | Google map Streetview.
-**WGS84 Longitude** | Telephone number.
-**WGS4 Latitude** | Telephone number.
-**Eircode** | Postal ID.
+**Streetview_Link** | Google map Streetview of facility.
+**WGS84 Longitude** | World Geodetic System co-ordinate.
+**WGS4 Latitude** | World Geodetic System co-ordinate.
+**Eircode** | Postal ID of facility.
     
     
     ## List of cars for a given year
