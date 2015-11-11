@@ -24,6 +24,7 @@ Column | Description
 **WGS4 Latitude** | World Geodetic System co-ordinate.
 **Eircode** | Postal ID of facility
 
+Below is an example of information taken from the dataset in JSON format, using the columns above.
 
 ```json
 [
