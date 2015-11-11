@@ -47,7 +47,16 @@ Below is an example of information taken from the dataset in JSON format, using 
 
 ##Filter for a specific sport type##
 
+If the user wanted to restrict the data they wanted to a specific field the would use something like the following:
+
+http://www.sportsfacilities.com/Roscommon/[field]
+
+[field] should be replaced with the field they want to see e.g name, type, address etc.
+The user could refine there search even more by adding another parameter. For example the user wants the get just gaa facilities in Roscommon, Theey would use:
+
 http://www.sportsfacilities.com/Roscommon/type/gaa
+
+The same can be done with adresses and id's etc. If there isn't a found address then an empty array will be returned 
 An example of a response would be:
 
 ```json
