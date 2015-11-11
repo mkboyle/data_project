@@ -9,8 +9,8 @@ This dataset was received in Comma Separated Values (CSV) format, and was downlo
 The CSV file contains 96 rows. Each row has 12 fields/columns.
 The column and column description are as follows:
 
-Column | Description
------- | ------------------------
+Column   |   Description
+------   |   -----------
 **x** | the x co-ordinate.
 **y** | the y co-ordinate.
 **OBJECT_ID** | Unique ID number for each facility.
