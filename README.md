@@ -2,7 +2,7 @@
 ## Roscommon Sports Facilities - Megan Boyle (G00312390)
 
 ## Introduction
-For this project I have chosen the API **Roscommon Sports Facilities**. It provides the design and documentation for the dataset which is available at [data.gov.ie](https://data.gov.ie/dataset/roscommon-sports-facilitiesbbc82/resource/fbe3f45a-5411-4279-b0ed-971679f5813b). This dataset contains information on Sports Facilities in County Roscommon for various different sports.
+For this project I have chosen the API **Roscommon Sports Facilities**. It provides the design and documentation for the dataset which is available at [data.gov.ie](https://data.gov.ie/dataset/roscommon-sports-facilitiesbbc82/resource/fbe3f45a-5411-4279-b0ed-971679f5813b). This dataset allows the front end user to get information on Sports Facilities in County Roscommon for various different sports.
 
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [data.gov.ie](https://data.gov.ie/dataset/roscommon-sports-facilitiesbbc82/resource/fbe3f45a-5411-4279-b0ed-971679f5813b).
@@ -47,7 +47,7 @@ Below is an example of information taken from the dataset in JSON format, using 
 
 ##Filter for a specific sport type##
 
-[http://www.sportsfacilities.com/Roscommon/type/gaa]
+http://www.sportsfacilities.com/Roscommon/type/gaa
 An example of a response would be:
     ```json
     [ {"price": 20000, "model": "Skoda", ...}, {...}, ...]
