@@ -37,8 +37,8 @@ Column | Description
       "Telephone" : "NA",
       "Web" : " ",
       "Streetview_Link" : "http://apps.roscommoncoco.ie/GoogleStreetView/GoogleMapStreetView.html?Lat=53.929607067645&amp;Lng=-8.24353211344334",
-      "WGS84 Longitude" : "-8.24353211"
-      "WGS4 Latitude" : "53.929607"
+      "WGS84 Longitude" : "-8.24353211",
+      "WGS4 Latitude" : "53.929607",
       "Eircode" : " "
     }
 ]
