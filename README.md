@@ -20,8 +20,8 @@ Column | Description
 **Telephone** | Telephone number.
 **Web** | Website Address.
 **Streetview_Link** | Google map Streetview of facility.
-**WGS84 Longitude** | World Geodetic System co-ordinate.
-**WGS4 Latitude** | World Geodetic System co-ordinate.
+**WGS84Longitude** | World Geodetic System co-ordinate.
+**WGS4Latitude** | World Geodetic System co-ordinate.
 **Eircode** | Postal ID of facility
 
 Below is an example of information taken from the dataset in JSON format, using the columns above.
@@ -38,8 +38,8 @@ Below is an example of information taken from the dataset in JSON format, using 
       "Telephone" : "NA",
       "Web" : " ",
       "Streetview_Link" : "http://apps.roscommoncoco.ie/GoogleStreetView/GoogleMapStreetView.html?Lat=53.929607067645&amp;Lng=-8.24353211344334",
-      "WGS84 Longitude" : "-8.24353211",
-      "WGS4 Latitude" : "53.929607",
+      "WGS84Longitude" : "-8.24353211",
+      "WGS4Latitude" : "53.929607",
       "Eircode" : " "
     }
 ]
@@ -71,8 +71,8 @@ An example of a response would be:
       "Telephone" : "NA",
       "Web" : " ",
       "Streetview_Link" : "http://apps.roscommoncoco.ie/GoogleStreetView/GoogleMapStreetView.html?Lat=53.3687496550367&amp;Lng=-8.02051310386946",
-      "WGS84 Longitude" : "-8.0205131",
-      "WGS4 Latitude" : "53.3687496",
+      "WGS84Longitude" : "-8.0205131",
+      "WGS4Latitude" : "53.3687496",
       "Eircode" : " "
     }
 ]
