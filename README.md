@@ -20,9 +20,9 @@ Column | Description
 **Telephone** | Telephone number.
 **Web** | Website Address.
 **Streetview_Link** | Google map Streetview of facility.
-**WGS84Longitude** | World Geodetic System co-ordinate.
-**WGS4Latitude** | World Geodetic System co-ordinate.
-**Eircode** | Postal ID of facility
+**WGS84Longitude** | World Geodetic System Longitude co-ordinate.
+**WGS4Latitude** | World Geodetic System Latitude co-ordinate.
+**Eircode** | Postal ID of the facility
 
 Below is an example of information taken from the dataset in JSON format, using the columns above.
 
@@ -45,28 +45,25 @@ Below is an example of information taken from the dataset in JSON format, using 
 ]
 ```
 
-##Sample Searches##
+#Sample Searches#
 
-If the user wanted to restrict the data they wanted to a specific field the would use something like the following:
+##Get a List of facilities for a certain Sport Type##
 
-http://www.sportsfacilities.com/Roscommon/[field]
+The list of facilities can be filtereed for a certainn sport type using the GET method. An example of a url to get this would be:
 
-[field] should be replaced with the field they want to see e.g name, type, address etc.
-The user could refine there search even more by adding another parameter. For example the user wants the get just gaa facilities in Roscommon, They would use:
+-http://www.sportsfacilities.com/Roscommon/type/[type]
 
-http://www.sportsfacilities.com/Roscommon/type/gaa
-
-The same can be done with adresses and id's etc. If there isn't a found address then an empty array will be returned 
-An example of a response would be:
+In this case [type] shouuld be replaced with the sports type facility the front end user wants e.g GAA, tennis, Golf etc.
+An example of a reponse to http://www.sportsfacilities.com/Roscommon/type/gaa in JSON format would be somthing like the following:
 
 ```json
 [
     {
+      "Type" : "GAA",
       "x" : "-8.020513103923442.",
       "y" : "53.368749653859169",
       "OBJECT_ID" : "4",
       "Name" : "Clan na Gael",
-      "Type" : "GAA",
       "Address" : "Johnstown, Cornafulla, Athlone, Co Roscommon",
       "Telephone" : "NA",
       "Web" : " ",
@@ -77,6 +74,8 @@ An example of a response would be:
     }
 ]
 ```
+
+##Get a List of Sport facilities in a certain Area##
 
 To search for Ballinameen Gaa club :
 
