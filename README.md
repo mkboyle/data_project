@@ -49,9 +49,9 @@ Below is an example of information taken from the dataset in JSON format, using 
 
 ##Get a List of facilities for a certain Sport Type##
 
-The list of facilities can be filtereed for a certainn sport type using the GET method. An example of a url to get this would be:
+The list of facilities can be filtered for a certain sport type using the GET method. An example of a url to get this would be:
 
--http://www.sportsfacilities.com/Roscommon/type/[type]
+        http://www.sportsfacilities.com/Roscommon/type/[type]
 
 In this case [type] shouuld be replaced with the sports type facility the front end user wants e.g GAA, tennis, Golf etc.
 An example of a reponse to http://www.sportsfacilities.com/Roscommon/type/gaa in JSON format would be somthing like the following:
