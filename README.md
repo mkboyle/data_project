@@ -102,3 +102,30 @@ An example of a reponse to http://www.sportsfacilities.com/Roscommon/Name=Ballin
     }
 ]
 ```
+
+##List of Sport facilities closett to users location##
+
+The list of facilities can be restricted to what is closet to the users location using the longitude and latitude co-ordinates. This can be achieved by using the POST method. An example of a url to get this would be:
+
+        http://www.sportsfacilities.com/Roscommon/closetFaciliites
+
+The users longitude and latitude co-ordinates would be compared to the facilities longitude and latitude co-ordinates to return the closet facilities to the user.nAn example of a reponse in JSON format would be something like the following:
+
+```json
+[
+    {
+      "WGS84 Longitude" : "-8.191536",
+      "WGS4 Latitude" : "53.848704",
+      "x" : "-8.191536529577093",
+      "y" : "53.848704411775131",
+      "OBJECT_ID" : "6",
+      "Name" : "Elphin GAA Club",
+      "Type" : "GAA",
+      "Address" : "Orchard Park, Elphin, Co Roscommon",
+      "Telephone" : "NA",
+      "Web" : " ",
+      "Streetview_Link" : "http://apps.roscommoncoco.ie/GoogleStreetView/GoogleMapStreetView.html?Lat=53.848704412512&amp;Lng=-8.19153653015078",
+      "Eircode" : " "
+    }
+]
+```
