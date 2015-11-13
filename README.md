@@ -54,7 +54,7 @@ The list of facilities can be filtered for a certain sport type using the GET me
         http://www.sportsfacilities.com/Roscommon/type/[type]
 
 In this case [type] should be replaced with the sports type facility the front end user wants e.g GAA, tennis, Golf etc.
-An example of a reponse to http://www.sportsfacilities.com/Roscommon/type/gaa in JSON format would be somthing like the following:
+An example of a reponse to http://www.sportsfacilities.com/Roscommon/type/gaa in JSON format would be something like the following:
 
 ```json
 [
@@ -75,11 +75,14 @@ An example of a reponse to http://www.sportsfacilities.com/Roscommon/type/gaa in
 ]
 ```
 
-##Get a List of Sport facilities in a certain Area##
+##Get a List of Sport facilities in a certain Club##
 
-To search for Ballinameen Gaa club :
+The list of facilities can be filtered for a certain Club name also using the GET method. An example of a url to get this would be:
 
-http://www.sportsfacilities.com/Roscommon/Name=Ballinameen+GAA/
+        http://www.sportsfacilities.com/Roscommon/Name/[Name]
+
+In this case [Name] should be replaced with the name of the club the front end user wants e.g Ballinameen Gaa club.
+An example of a reponse to http://www.sportsfacilities.com/Roscommon/Name=Ballinameen+GAA/ in JSON format would be something like the following:
 
 ```json
 [
