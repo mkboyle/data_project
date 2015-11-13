@@ -75,7 +75,7 @@ An example of a reponse to http://www.sportsfacilities.com/Roscommon/type/gaa in
 ]
 ```
 
-##Get a List of Sport facilities in a certain Club##
+##Get a List of Sport facilities for a certain Club##
 
 The list of facilities can be filtered for a certain Club name also using the GET method. An example of a url to get this would be:
 
