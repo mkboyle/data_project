@@ -103,7 +103,7 @@ An example of a reponse to http://www.sportsfacilities.com/Roscommon/Name=Ballin
 ]
 ```
 
-##List of Sport facilities closett to users location##
+##List of Sport facilities closet to users location##
 
 The list of facilities can be restricted to what is closet to the users location using the longitude and latitude co-ordinates. This can be achieved by using the POST method. An example of a url to get this would be:
 
